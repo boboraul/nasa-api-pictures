@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA API Pictures</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://s2.googleusercontent.com/s2/favicons?domain=www.nasa.gov">
+    <!-- ZTM Favicon -->
+    <!-- <link rel="icon" type="image/png" href="favicon.png"> -->
+</head>
+
+<body>
+    <!-- Loader -->
+    <div class="loader hidden">
+        <img src="eclipse.svg" alt="Eclipse">
+    </div>
+
+    <div class="container">
+        <!-- Navigation -->
+        <div class="navigation-container">
+            <span class="background"></span>
+            <!-- Results Nav -->
+            <ul class="navigation-items" id="resultsNav">
+                <li class="clickable">Favorites</h3>
+              
+                <li class="clickable">Load More</h3>
+            </span>
+             <!-- Favorites nav -->
+            <span class="navigation-items hidden" id="favoritesNav">
+                <h3 class="clickable">Load More NASA Images</h3>
+            </span>
+        </div>
+        <!-- Images Container -->
+        <div class="images-container">
+            <div class="card">
+                <a href="" title="View Full Image" target="_blank">
+                  <img class="card-img-top img-fluid" src="" alt="NASA Picture of the Day">
+                </a>
+                <div class="card-body">
+                    <h5 class="cartd-title">Title of Image</h5>
+                    <p class="clickable">Add to Favorites</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+                <small class="text-muted">
+                    <strong>23/06.2023</strong>
+                </small>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Save Confirmation -->
+    <div class="save-confirmed">
+        <h1>ADDED!</h1>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
