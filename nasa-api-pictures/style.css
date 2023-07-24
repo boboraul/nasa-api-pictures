@@ -29,7 +29,7 @@ body {
   justify-content: center;
   align-items: center;
   position: fixed;
-  z-index; 99;
+  z-index: 99;
 }
 
 /* Navigation */
@@ -65,7 +65,7 @@ body {
 
 /* Images Container */
 .images-container {
-
+  max-width: 750px;
   margin-top: 200px;
 }
 
@@ -81,8 +81,6 @@ body {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-
-
 .card-body {
   padding: 20px;
 }
@@ -91,7 +89,6 @@ body {
   margin: 10px auto;
   font-size: 24px;
 }
-
 
 
 /* Save Confirmation */
@@ -114,15 +111,16 @@ body {
   body {
     line-height: 1.4rem;
     font-size: 0.9rem;
-
+    text-align: justify;
   }
-
 
   .card-title {
     font-size: 20px;
   }
 
-  
+  .save-confirmed {
+    right: 25px;
+  }
 }
 
 .hidden {
@@ -133,7 +131,8 @@ small {
   padding: 15px;
 }
 
-.img-fluid {
+.card-img-top {
   height: auto;
-  max-width: 100%
+  max-width: 100%;
+  border-radius: 5px 5px 0 0;
 }

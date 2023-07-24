@@ -21,37 +21,37 @@
         <div class="navigation-container">
             <span class="background"></span>
             <!-- Results Nav -->
-            <ul class="navigation-items" id="resultsNav">
-                <li class="clickable">Favorites</h3>
+            <span class="navigation-items" id="resultsNav">
+                <h3 class="clickable" onclick="updateDOM('favorites')">Favorites</h3>
               
-                <li class="clickable">Load More</h3>
+                <h3 class="clickable" onclick="getNasaPictures()">Load More</h3>
             </span>
              <!-- Favorites nav -->
-            <span class="navigation-items hidden" id="favoritesNav">
+            <span class="navigation-items hidden" id="favoritesNav" onclick="getNasaPictures()">
                 <h3 class="clickable">Load More NASA Images</h3>
             </span>
         </div>
         <!-- Images Container -->
         <div class="images-container">
-            <div class="card">
+            <!-- <div class="card">
                 <a href="" title="View Full Image" target="_blank">
-                  <img class="card-img-top img-fluid" src="" alt="NASA Picture of the Day">
+                  <img class="card-img-top img-fluid" src="https://apod.nasa.gov/apod/image/2306/M24_2023grapod.jpg" alt="NASA Picture of the Day">
                 </a>
                 <div class="card-body">
                     <h5 class="cartd-title">Title of Image</h5>
                     <p class="clickable">Add to Favorites</p>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit numquam eos temporibus. Aspernatur, recusandae laudantium?.</p>
                 </div>
                 <small class="text-muted">
                     <strong>23/06.2023</strong>
                 </small>
-            </div>
+            </div> -->
         </div>
 
     </div>
 
     <!-- Save Confirmation -->
-    <div class="save-confirmed">
+    <div class="save-confirmed" hidden>
         <h1>ADDED!</h1>
     </div>
     <!-- Script -->
